@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Chemical Industry Accidents</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- MDBootstrap Datatables  -->
+  <link href="css/addons/datatables.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <!-- Custom styles -->
+</head>
+<style>
+  table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+.cia {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vw;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+.sdi {
+  font-family: 'Roboto', sans-serif;
+  font-size:2vw;
+}
+.thb {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+</style>
+<!--Main Navigation-->
+<header>
+  <div class="view intro-2" style="">
+    <div class="full-bg-img">
+      <div class="mask rgba-black-strong flex-center">
+        <div class="container text-center white-text wow fadeInUp">
+          <h2 class="cia">Chemical Industry Accidents</h2>
+          <br>
+          <h5 class="sdi">Searchable Database of Indian Chemical Industry Accidents</h5>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+<!--Main Navigation-->
+
+<!--Main Layout-->
+<main class="text-center py-5">
+
+  <div class="container">
+    <div class="row">
+    <div class="col-md-2"></div>
+      <div class="col-md-8">
+
+        <p align="justify" class="thb">There have been various accidents in Chemical Industries in recent years in India. These accidents have claimed the lives of many people and had a great impact on the lives of residents living in nearby areas. This project is an attempt to make a searchable database of all such accidents, and categorize the accidents in terms of casualties, damage, type of Industry and Economic loss.</p>
+
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+</main>
+<!--Main Layout-->
+<body>
+
+  <!-- Start your project here-->
+  <div class="container">
+    <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th class="th-sm">Date
+          </th>
+          <th class="th-sm">Company
+          </th>
+          <th class="th-sm">Accident
+          </th>
+          <th class="th-sm">Location
+          </th>
+          <th class="th-sm">Deaths
+          </th>
+          <th class="th-sm">Injured
+          </th>
+          <th class="th-sm">Links
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2020/05/22</td>
+          <td>LG Polymers India Pvt Ltd</td>
+          <td>Styrene Gas Leakage</td>
+          <td>Vizag</td>
+          <td>12</td>
+          <td>585</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/06/29</td>
+          <td>Sainor Life Sciences Pvt Ltd</td>
+          <td>Benzimidazole gas leakage</td>
+          <td>Vizag</td>
+          <td>2</td>
+          <td>4</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/06/27</td>
+          <td>SPY Agro Industires</td>
+          <td>Ammonia Gas Leakage</td>
+          <td>Kurnool, AP</td>
+          <td>1</td>
+          <td>3</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/06/03</td>
+          <td>Yashasvi Rasayan Pvt Ltd in Dahej</td>
+          <td>Bioler blast</td>
+          <td>Dahej</td>
+          <td>10</td>
+          <td>75+</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/06/10</td>
+          <td>Hemani Industries</td>
+          <td>Explosion and Fire</td>
+          <td>Ankleshwar</td>
+          <td>1</td>
+          <td>5+</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/01/11</td>
+          <td>Aims Industries Pvt Ltd</td>
+          <td>Explosion</td>
+          <td>Vadodara</td>
+          <td>6</td>
+          <td>6</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/01/06</td>
+          <td>PI Industries Limited</td>
+          <td>Boiler explosion</td>
+          <td>Bharuch</td>
+          <td>2</td>
+          <td>10</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/07/18</td>
+          <td>Vishal Fabrics</td>
+          <td>Noxious Gas</td>
+          <td>Dholka, Ahmedabad</td>
+          <td>4</td>
+          <td>-</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/02/28</td>
+          <td>MI Industrial area</td>
+          <td>Explosion</td>
+          <td>Bahadurgarh, Haryana</td>
+          <td>6</td>
+          <td>28</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/04/18</td>
+          <td>Pidilite Industries</td>
+          <td>Explosion</td>
+          <td>Baddi, HP</td>
+          <td>1</td>
+          <td>7</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/04/10</td>
+          <td>Sasan Ultra</td>
+          <td>Fly Ash flood</td>
+          <td>Singrauli, MP</td>
+          <td>6</td>
+          <td>-</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/06/01</td>
+          <td>Manas Agro</td>
+          <td>Boiler Explosion</td>
+          <td>Nagpur, MH</td>
+          <td>5</td>
+          <td>-</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/04/13</td>
+          <td>Galaxy Surfactants</td>
+          <td>Explosion</td>
+          <td>Palghar</td>
+          <td>2</td>
+          <td>3</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/01/11</td>
+          <td>Ank Pharma</td>
+          <td>Explosion</td>
+          <td>Boisar, MH</td>
+          <td>8</td>
+          <td>7</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/01/22</td>
+          <td>JK Remedies</td>
+          <td>Explosion</td>
+          <td>Thane, MH</td>
+          <td>1</td>
+          <td>2</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/05/07</td>
+          <td>Neyveli Lignite Corporation</td>
+          <td>Boiler Explosion</td>
+          <td>Neyveli, TN</td>
+          <td>8</td>
+          <td>7</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/07/01</td>
+          <td>Neyveli Lignite Corporation</td>
+          <td>Boiler Explosion</td>
+          <td>Neyveli, TN</td>
+          <td>13</td>
+          <td>17</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/11/05</td>
+          <td>Jasnova Pharmaceutical</td>
+          <td>Reactor explosion</td>
+          <td>Khalapur, Raigad </td>
+          <td>2</td>
+          <td>6</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2019/08/28</td>
+          <td>Rumit Chemsynth Pvt Ltd</td>
+          <td>London</td>
+          <td>Dhule, MH</td>
+          <td>13</td>
+          <td>72</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2020/09/04</td>
+          <td>ONGC</td>
+          <td>Fire</td>
+          <td>Navi Mumbai, MH</td>
+          <td>2</td>
+          <td>4</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2019/04/14</td>
+          <td>ONGC</td>
+          <td>Wells Fire </td>
+          <td>Ahmedabad</td>
+          <td>2</td>
+          <td>-</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2019/01/21</td>
+          <td>Bawana Industrail Area</td>
+          <td>Fire</td>
+          <td>Delhi</td>
+          <td>17</td>
+          <td>30</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2016/05/26</td>
+          <td>Acharya Chemicals</td>
+          <td>Explosion</td>
+          <td>Dombivali, MH</td>
+          <td>5</td>
+          <td>125+</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>2017/11/01</td>
+          <td>NTPC Unchahar</td>
+          <td>Boiler Explosion</td>
+          <td>Unchahar, UP</td>
+          <td>26</td>
+          <td>100+</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+        <tr>
+          <td>Angelica Ramos</td>
+          <td>Chief Executive Officer (CEO)</td>
+          <td>London</td>
+          <td>47</td>
+          <td>2009/10/09</td>
+          <td>$1,200,000</td>
+          <td><a href="https://www.w3schools.com">Report</a>, <a href="https://www.w3schools.com">News</a>, <a href="https://www.w3schools.com">Legal</a></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Date
+          </th>
+          <th>Company
+          </th>
+          <th>Accident
+          </th>
+          <th>Location
+          </th>
+          <th>Deaths
+          </th>
+          <th>Injured
+          </th>
+          <th>Links
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+  <!-- MDBootstrap Datatables  -->
+  <script type="text/javascript" src="js/addons/datatables.min.js"></script>
+  <script>
+    $(document).ready(function () {
+$('#dtBasicExample').DataTable();
+$('.dataTables_length').addClass('bs-select');
+});
+  </script>
+
+</body>
+</html>
